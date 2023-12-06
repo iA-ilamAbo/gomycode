@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Navbra */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+  align-items: center;
+  background-color: #ddd;
+}
+.navbar_items-link {
+  margin-right: 1em;
+}
+.navbar_media-link {
+  margin-right: 1em;
+}
+/* End-Navbra */
+
+/* Header */
+
+.header {
+  background: url("../partenaires.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  padding: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header_content {
+  width: 30%;
+  padding: 3em;
+  color: white;
+  text-align: center;
+}
+.header_content-text {
+  margin-bottom: 3em;
+}
+
+.header_content-text--p,
+.header_content-text--description {
+  margin-bottom: 0.3em;
+  font-size: 1.5em;
+}
+.header_content-text--p {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.header_content-button {
+  margin-top: 1em;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* End-Header */
+
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+.about_titre {
+  width: 30%;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 10px 10px 10px gray;
+}
+.about_content {
+  width: 70%;
+  padding: 1em;
+}
+
+.about_content-text {
+  font-size: 1.3em;
+  color: #797777;
+}
+.about_content-btn {
+  padding: 1em;
+  background: gray;
+  border: 1px solid gray;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about_content-btn:hover {
+  color: black;
+  background: transparent;
+  border: 1px solid black;
+}
+
+/* End-About */
+
+/* Skills */
+
+.skills {
+  background-color: #474646;
+  padding: 2em;
+  color: white;
+}
+.first {
+  text-align: center;
+}
+.skills_p {
+  margin: auto;
+  width: 60%;
+}
+.skills_technos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+.skills_technos-design {
+  padding: 2em 0;
+}
+.skills_technos-design:first-child {
+  text-align: center;
+}
+/* End-Skills */
+
+/* Portfolio */
+.portfolio {
+  padding: 2em;
+}
+.portfolio_titre {
+  font-size: 3em;
+  padding-left: 2em;
+  font-weight: bold;
+}
+.portfolio_project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2em;
+  width: 70%;
+  margin: auto;
+}
+.portfolio_project-item {
+  background-color: #797777;
+  padding: 1em;
+  text-align: center;
+}
+/* End-Portfolio */

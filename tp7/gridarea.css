@@ -1,0 +1,37 @@
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        width: 60%;
+        margin: auto;
+        height: 70vh;
+        gap: 10px;
+      }
+      .cards div {
+        background-color: red;
+        border-radius: 10px;
+        
+    
+      }
+      .card1 {
+        border-top:2px solid black;
+        padding: 1em;
+        grid-area: 2/1 / span 2;
+      }
+      .fa-solid fa-magnifying-glass{
+       margin-left:5em; 
+      }
+      .card2 {
+        grid-area: 1/2 / span 2;
+      }
+      .card3 {
+        grid-area: 3/2 / span 2;
+      }
+      .card4 {
+        grid-area: 2/3 / span 2;
+      }
+      .loupe{
+        float:right;
+      }
+

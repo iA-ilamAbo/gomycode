@@ -1,0 +1,58 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(222, 247, 248);
+}
+.navbar{
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 40vh; */
+   
+    margin-top: 0;
+}
+
+.navbar-item{
+    text-decoration: none;
+    color: grey;
+    margin-right:2em;
+}
+
+.navbar-btn{
+    color: white;
+    background-color: rgb(165, 42, 85);
+    border-radius: 10px;
+    padding: 5px;
+}
+.text-navbar{
+    font-size: 30px;
+    width:30%;
+    padding:4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.startbuilding{
+    display:flex ;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    width:70%;
+    margin: auto;
+    padding: 1.5em;
+}
+.input{
+ padding: 1em;
+ width:30%; 
+ border-radius: 10em;
+ border-color: white;  
+}
+.navbar-contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:70%;
+    margin: auto;
+    padding: 1.5em;
+   
+}

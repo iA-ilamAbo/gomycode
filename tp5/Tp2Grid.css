@@ -1,0 +1,18 @@
+.parent {
+    background-color: green;
+    padding: 3em;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap :5px;
+   
+  }
+ .a {
+  grid-column: span 2;
+ }
+  .parent div {
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+  }
+  
